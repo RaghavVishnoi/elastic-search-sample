@@ -23,21 +23,26 @@ Things you may want to cover:
 
 * ...
 
-** Install elastic search with given link:
+## Install elastic search with given link:
 
 ``
 	https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html
 ``
-** Setup database with mssql
 
-``
+## Setup database with mssql
+
+
+```json
+
 gem 'activerecord-sqlserver-adapter'
 
-``
+```
 
-*** Add above gem into Gemfile
+### Add above gem into Gemfile
 
-``
+
+```json
+
 default: &default
   host: 111.222.333.444
   adapter: sqlserver
@@ -46,5 +51,6 @@ default: &default
   username: sa
   password: ********
 
-``
-*** Add these lines into database.yml as default configuration for all environment
+```
+
+### Add these lines into database.yml as default configuration for all environment
