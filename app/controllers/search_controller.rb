@@ -4,7 +4,7 @@ class SearchController < ApplicationController
 	  if params[:q].nil?
 	    @users = []
 	  else
-	    @users = User.search params[:q]
+	    @users = User.search URI.decode(params[:q])
 	  end
 	end
 

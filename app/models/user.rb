@@ -6,4 +6,9 @@ class User < ApplicationRecord
 
 end
 
+
+User.__elasticsearch__.client.indices.delete index: User.index_name rescue nil
+
 User.import force: true
+
+ 

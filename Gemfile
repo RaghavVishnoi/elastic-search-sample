@@ -54,3 +54,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'elasticsearch-model'
 gem 'elasticsearch-rails'
+
+gem 'newrelic_rpm','4.0.0.332'
+

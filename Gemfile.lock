@@ -96,6 +96,7 @@ GEM
     minitest (5.10.3)
     multi_json (1.12.2)
     multipart-post (2.0.0)
+    newrelic_rpm (4.0.0.332)
     nio4r (2.1.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
@@ -184,6 +185,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  newrelic_rpm (= 4.0.0.332)
   pg
   puma (~> 3.0)
   rails (~> 5.0.3)
